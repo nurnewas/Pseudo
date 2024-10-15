@@ -1,0 +1,22 @@
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: peru;
+}
+h3:hover {
+    color: white;
+    background-color: black;
+}
+input {
+    /* display: inline-block; */
+    width: 200px;
+    padding: 10px;
+    border: solid 1px salmon;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input:focus {
+    border: red solid 2px;
+    transform: scale(1.7);
+}
