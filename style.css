@@ -34,3 +34,19 @@ h2 > a {
     text-decoration: underline; 
     
  }
+/* 
+ li:last-child {
+    color: red;
+    font-size: bold;
+ }
+ li:first-child {
+    color: black;
+    background-color: pink;
+ } */
+ ul {
+    text-align: center;
+ }
+
+ li:nth-child(2n) { 
+    color: blue;
+ }                    
