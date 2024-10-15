@@ -1,22 +1,36 @@
 h3 {
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    text-align: center;
-    color: peru;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: peru;
 }
 h3:hover {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 input {
-    /* display: inline-block; */
-    width: 200px;
-    padding: 10px;
-    border: solid 1px salmon;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  /* display: inline-block; */
+  width: 200px;
+  padding: 10px;
+  border: solid 1px salmon;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 input:focus {
-    border: red solid 2px;
-    transform: scale(1.7);
+  border: red solid 2px;
+  transform: scale(1.7);
 }
+
+h2 {
+  text-align: center;
+}
+h2 > a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+ h2 > a:visited {
+    color: gray;
+    text-decoration: underline; 
+    
+ }
